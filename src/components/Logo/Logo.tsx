@@ -13,12 +13,12 @@ export function Logo() {
             w="64"
             color={fontColor}
         >
-            smart
+            formulário
             <Text
                 color="blue.300"
                 as="span"
             >
-                order
+                smart
             </Text>
         </Text>
     );

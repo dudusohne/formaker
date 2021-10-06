@@ -1,23 +1,23 @@
 import { extendTheme, ThemeConfig } from '@chakra-ui/react';
 
 
-const config: ThemeConfig = {
-    initialColorMode: "dark",
-    useSystemColorMode: false,
-}
+// const config: ThemeConfig = {
+//     initialColorMode: "dark",
+//     useSystemColorMode: false,
+// }
 
 export const theme = extendTheme({
-    config,
+    // config,
     font: {
         heading: 'Roboto',
         body: 'Roboto',
     },
-    // styles: {
-    //     global: {
-    //         body: {
-    //             bg: 'gray.800',
-    //             color: 'gray.50',
-    //         }
-    //     }
-    // }
+    styles: {
+        global: {
+            body: {
+                bg: 'gray.700',
+                color: 'gray.50',
+            }
+        }
+    }
 })
